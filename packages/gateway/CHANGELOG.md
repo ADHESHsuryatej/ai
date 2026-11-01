@@ -1,5 +1,11 @@
 # @ai-sdk/gateway
 
+## 3.0.227
+
+### Patch Changes
+
+- 3f6b482: fix(gateway): Preserve AbortError and TimeoutError cancellation reasons instead of wrapping them in retryable GatewayResponseError errors with status 500.
+
 ## 3.0.226
 
 ### Patch Changes
